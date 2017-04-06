@@ -26,8 +26,12 @@ public class codegit {
     
     if(n%2==0){
         System.out.println("El numero "+n+" es par, mejor");
+   System.out.println("El numero "+n+" es par, mejor");
+   System.out.println("El numero "+n+" es par, mejor");
     }
     else{
+        System.out.println("El numero "+n+" es NO ES PAR, peor");
+        System.out.println("El numero "+n+" es NO ES PAR, peor");
         System.out.println("El numero "+n+" es NO ES PAR, peor");
     }
     
