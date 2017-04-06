@@ -22,14 +22,24 @@ public class codegit {
     int n=0;    
     System.out.println("Introducir un numero para comprobar");
     n=sc.nextInt();
-    
-    if(n%2==0){
-        System.out.println("El numero "+n+" es par");
+    if(n<10){
+		if(n%2==0){
+			System.out.println("El numero "+n+" es par y es menor de 10");
+			}
+                else{
+                    System.out.println("El numero "+n+" es NO ES PAR es menor de 10");
+                }
+                
+    }
+    else if(n%2==0){
+        System.out.println("El numero "+n+" es par y es mayor igual a 10");
     }
     else{
-        System.out.println("El numero "+n+" es NO ES PAR");
+        System.out.println("El numero "+n+" es NO ES PAR es mayor de 10");
     }
     
-    }
     
+    
+    
+}
 }
